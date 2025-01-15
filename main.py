@@ -1,13 +1,17 @@
 import scapy.all as scapy
 import argparse
 
-def send_packets(target,last_port):
+#def send_packets(target,last_port):
     
     
 def display_result(allowed_packets,allowed_ports):
-    
-    
-def nmap_scan(target,alowed_packets):
+    print("\nAllowed packets")
+    for pkt in allowed_packets:
+        print(f"-{pkt.summary()}")    
+    for prt in allowed_ports:
+        print(f"-{prt}")
+        
+#def nmap_scan(target,alowed_packets):
     
     
             
