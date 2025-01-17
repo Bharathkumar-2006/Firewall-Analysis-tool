@@ -1,0 +1,11 @@
+Allowed Packets:
+- IP / TCP 127.0.0.1:ftp_data > 127.0.0.1:0 S
+- IP / TCP 127.0.0.1:ftp_data > 127.0.0.1:0 A
+- IP / TCP 127.0.0.1:ftp_data > 127.0.0.1:0 F
+- IP / TCP 127.0.0.1:ftp_data > 127.0.0.1:0 P
+- IP / TCP 127.0.0.1:ftp_data > 127.0.0.1:0 U
+- IP / UDP 127.0.0.1:domain > 127.0.0.1:0
+- IP / ICMP 127.0.0.1 > 127.0.0.1 echo-request 0
+
+Allowed Ports:
+- 0
