@@ -20,7 +20,7 @@ The Firewall Evasion Packet Tester is a CLI-based security analysis tool built u
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/firewall-evasion-packet-tester.git
+git clone https://github.com/Bharathkumar-2006/firewall-evasion-packet-tester.git
 
 # Navigate into the project directory
 cd firewall-evasion-packet-tester
