@@ -1,4 +1,4 @@
-# Firewall Evasion Packet Tester
+# Firewall Analysis tool
 
 ## Overview
 The Firewall Evasion Packet Tester is a CLI-based security analysis tool built using Python and Scapy. It evaluates firewall configurations by sending multiple crafted packet types to a specified target IP address. The tool determines which packets are permitted, identifies open ports, and generates a detailed summary report in a separate output file.
@@ -20,10 +20,10 @@ The Firewall Evasion Packet Tester is a CLI-based security analysis tool built u
 
 ```bash
 # Clone the repository
-git clone https://github.com/Bharathkumar-2006/firewall-evasion-packet-tester.git
+git clone https://github.com/Bharathkumar-2006/Firewall-Analysis-tool.git
 
 # Navigate into the project directory
-cd firewall-evasion-packet-tester
+cd Firewall-Analysis-tool
 
 # Install required dependency
 pip install scapy
